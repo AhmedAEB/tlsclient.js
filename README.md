@@ -11,7 +11,7 @@ An axios based wrapper for `bogdanfinn/tls-client` based on ffi-rs for unparalle
 Install with npm
 
 ```bash
-  npm i @dryft/tlsclient
+  npm i @ahmedaeb/tlsclient
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ Install with npm
 ### First run:
 
 ```javascript
-import { createTLSClient } from "@dryft/tlsclient";
+import { createTLSClient } from "@ahmedaeb/tlsclient";
 
 const axios = createTLSClient();
 let res = await axios.get("https://ipv4.icanhazip.com");
