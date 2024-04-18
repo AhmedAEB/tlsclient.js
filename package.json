@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "axios": "^1.6.8",
+    "axios": "0.27.2",
     "ffi-rs": "^1.0.43",
     "typescript": "^5.3.3",
     "workerpool": "^9.0.4"
